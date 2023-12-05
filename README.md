@@ -1,6 +1,6 @@
 # gpt-text-based
 
-! Currently now well tested and code is also not very good. Created for personal use. Use at your own risk.
+! Currently not well tested and code is also not very good. Created for personal use. Use at your own risk.
 
 ## Description
 
