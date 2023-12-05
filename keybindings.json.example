@@ -1,0 +1,7 @@
+[
+        {
+        "key": "ctrl+cmd+a",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run gpt-4 on current file"
+    }
+]

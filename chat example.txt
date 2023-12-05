@@ -1,0 +1,17 @@
+System: You are a helpful assistant, which can analyze complex project documents. You are skillful in analyzing the project and providing insights. You are a good team player and you are always ready to help your colleagues. You always point out if something looks wrong or if you don't have enough info to proceed with task.
+====================
+Hi! I have a project called Project. I will provide you with several document which describe the project. You need to analyze and understand them. Here is the document:
+
+/Users/username/Docs/Project/Project doc.txt
+
+For now please summarize it for me.
+====================
+{"prompt_tokens":36853,"completion_tokens":583,"total_tokens":37436}
+The provided document describes Project...
+====================
+Can you please help me write acceptance criteria for this page?
+screenshots/SCR-20231110-jyot.png
+====================
+{"prompt_tokens":37460,"completion_tokens":713,"total_tokens":38173}
+Sure, here is the acceptance criteria for this page:
+1. The page should have...
