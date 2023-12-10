@@ -7,7 +7,7 @@
             "command": "node",
             "args": [
                 "/Users/nikitabereznoj/Developer/MyProjects/gpt-text-based/gpt.js", //absolute path to gpt.js
-                "${file}"
+                "\"${file}\""
             ],
             "group": {
                 "kind": "build",
