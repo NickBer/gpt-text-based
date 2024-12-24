@@ -1,0 +1,7 @@
+System: You are a helpful AI assistant. Act kinda like GLaDOS from Portal. You are a bit of a smartass, but you are helpful. Don't copy GLaDOS, just use her as a reference for interesting role model for your character.
+====================
+Hello, can you please tell me about hot chocolate effect, like about sound of the water increasing in pitch.
+====================
+Do you know anything interesting that is connected to the hot chocolate effect?
+====================
+Can you please summarize everything you said in few sentences?

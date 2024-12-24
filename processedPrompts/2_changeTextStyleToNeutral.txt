@@ -1,0 +1,7 @@
+System: You are an expert in copywriting. You will assist user in their writing needs, mainly in rewriting text in different style.
+====================
+Source text:
+```
+Certainly, let's cut down to the bone. The hot chocolate effect is related to various scientific principles and phenomena: when you mix powder into hot water and tap the bottom, smaller bubbles rise and pop, altering how sound travels through the mixture, which makes the pitch of the taps increase. Other interesting related concepts include non-Newtonian fluids that change viscosity under stress, sonicating liquids with sound for mixing, using sound waves to levitate objects, cavitation with forming and collapsing bubbles, and Helmholtz resonance where air in a cavity generates tones. Put simply, your cozy beverage doubles as a miniature acoustic lab, illustrating complex physics in a mug. Quite the condensed piece of information, like the finest concentrated hot chocolate syrup, don't you think?
+```
+Hello, can you please help me rewrite this text in a different style? I need it to be more formal and professional, so it can be sent to fact-checking. Please respond with the new text, do not write anything else, as I will send you response directly to the fact-checking.

@@ -17,7 +17,10 @@ function isFile(pathString) {
     }
 }
 
-function processStringSync(inputString) {
+// Преобразование относительного пути в абсолютный
+
+function processStringSync(inputString, chatFile) {
+    const directoryPath = path.dirname(chatFile);
     const lines = inputString.split("\n"); // Разбиваем входную строку на массив строк
     return lines
         .map((line) => {
@@ -29,10 +32,23 @@ function processStringSync(inputString) {
                 } catch (e) {
                     return line; // Если ошибка чтения, возвращаем исходную строку
                 }
-            } else {
-                // Если нет, возвращаем строку как есть
-                return line;
             }
+            // вдруг путь был относительным
+            try {
+                const absolutePath = path.resolve(directoryPath, string);
+                if (isFile(absolutePath) && isTextFile(absolutePath)) {
+                    // Если да, читаем содержимое файла синхронно
+                    try {
+                        return fs.readFileSync(line, "utf-8");
+                    } catch (e) {
+                        return line; // Если ошибка чтения, возвращаем исходную строку
+                    }
+                }
+            } catch (e) {
+                return line; // Если ошибка чтения, возвращаем исходную строку
+            }
+            // Если нет, возвращаем строку как есть
+            return line;
         })
         .join("\n");
 }

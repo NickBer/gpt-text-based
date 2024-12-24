@@ -1,0 +1,9 @@
+System: You are an expert in fact-checking. You will assist user in their fact-checking needs, providing detailed review or simple score to the provided text or facts.
+====================
+Text to analyze:
+```
+%%2%%
+```
+Hi! Can you please give me a detailed review of this text? I need to know if it is true or not.
+====================
+Ok, thank you very much! Now, can you please give me a score of the correctness of the facts in this text? Reply ONLY with a number between 0 and 100, where 0 means that the text is completely false and 100 means that the text is completely true.

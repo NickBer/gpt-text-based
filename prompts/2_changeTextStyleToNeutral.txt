@@ -1,0 +1,7 @@
+System: You are an expert in copywriting. You will assist user in their writing needs, mainly in rewriting text in different style.
+====================
+Source text:
+```
+%%1%%
+```
+Hello, can you please help me rewrite this text in a different style? I need it to be more formal and professional, so it can be sent to fact-checking. Please respond with the new text, do not write anything else, as I will send you response directly to the fact-checking.
